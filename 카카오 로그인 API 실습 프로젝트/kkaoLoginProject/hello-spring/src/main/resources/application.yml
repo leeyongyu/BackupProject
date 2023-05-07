@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+kakao:
+  client:
+    id: 7c62a95ea03b1d52f0ca545041826408
+    secret: MXJ12ys0ZynlioNYBEtbjfXQxLIGDS2J
+
+spring:
+  mvc:
+    hidden-method:
+      filter:
+        enabled: true
+
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
